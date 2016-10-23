@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29D54FE360BBF7366F2451CD /* libPods-FBTNetworkingDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB9A97B162415B201537D40 /* libPods-FBTNetworkingDemo.a */; };
+		5471325B1DBA728C003479E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5471325A1DBA728C003479E6 /* main.m */; };
+		5471325E1DBA728C003479E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5471325D1DBA728C003479E6 /* AppDelegate.m */; };
+		547132611DBA728C003479E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 547132601DBA728C003479E6 /* ViewController.m */; };
+		547132641DBA728C003479E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547132621DBA728C003479E6 /* Main.storyboard */; };
+		547132661DBA728C003479E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 547132651DBA728C003479E6 /* Assets.xcassets */; };
+		547132691DBA728C003479E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 547132671DBA728C003479E6 /* LaunchScreen.storyboard */; };
+		547132741DBA728C003479E6 /* FBTNetworkingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 547132731DBA728C003479E6 /* FBTNetworkingDemoTests.m */; };
+		5471327F1DBA728C003479E6 /* FBTNetworkingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5471327E1DBA728C003479E6 /* FBTNetworkingDemoUITests.m */; };
+		547132D81DBA7CA4003479E6 /* FBTHeroNetSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 547132CE1DBA7CA4003479E6 /* FBTHeroNetSet.m */; };
+		547132D91DBA7CA4003479E6 /* FBTHeroAccordingStateBLL.m in Sources */ = {isa = PBXBuildFile; fileRef = 547132D11DBA7CA4003479E6 /* FBTHeroAccordingStateBLL.m */; };
+		547132DA1DBA7CA4003479E6 /* FBTHeroAccordingStateModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 547132D31DBA7CA4003479E6 /* FBTHeroAccordingStateModel.m */; };
+		547132DB1DBA7CA4003479E6 /* FBTHeroAccordingStateRequestsEnitity.m in Sources */ = {isa = PBXBuildFile; fileRef = 547132D51DBA7CA4003479E6 /* FBTHeroAccordingStateRequestsEnitity.m */; };
+		547132DC1DBA7CA4003479E6 /* FBTHeroAccordingStateRespondEnitity.m in Sources */ = {isa = PBXBuildFile; fileRef = 547132D71DBA7CA4003479E6 /* FBTHeroAccordingStateRespondEnitity.m */; };
+		547132E01DBA84F9003479E6 /* FBTNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547132DF1DBA84F9003479E6 /* FBTNetworking.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		547132701DBA728C003479E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5471324E1DBA728C003479E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547132551DBA728C003479E6;
+			remoteInfo = FBTNetworkingDemo;
+		};
+		5471327B1DBA728C003479E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5471324E1DBA728C003479E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547132551DBA728C003479E6;
+			remoteInfo = FBTNetworkingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BB9A97B162415B201537D40 /* libPods-FBTNetworkingDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FBTNetworkingDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DBB4A1C0ECF3C736CD4AC6 /* Pods-FBTNetworkingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBTNetworkingDemo.release.xcconfig"; path = "../Pods/Target Support Files/Pods-FBTNetworkingDemo/Pods-FBTNetworkingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		547132561DBA728C003479E6 /* FBTNetworkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBTNetworkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5471325A1DBA728C003479E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5471325C1DBA728C003479E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5471325D1DBA728C003479E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5471325F1DBA728C003479E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		547132601DBA728C003479E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		547132631DBA728C003479E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		547132651DBA728C003479E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		547132681DBA728C003479E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5471326A1DBA728C003479E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5471326F1DBA728C003479E6 /* FBTNetworkingDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBTNetworkingDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		547132731DBA728C003479E6 /* FBTNetworkingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBTNetworkingDemoTests.m; sourceTree = "<group>"; };
+		547132751DBA728C003479E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5471327A1DBA728C003479E6 /* FBTNetworkingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBTNetworkingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5471327E1DBA728C003479E6 /* FBTNetworkingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBTNetworkingDemoUITests.m; sourceTree = "<group>"; };
+		547132801DBA728C003479E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		547132CD1DBA7CA4003479E6 /* FBTHeroNetSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTHeroNetSet.h; sourceTree = "<group>"; };
+		547132CE1DBA7CA4003479E6 /* FBTHeroNetSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTHeroNetSet.m; sourceTree = "<group>"; };
+		547132D01DBA7CA4003479E6 /* FBTHeroAccordingStateBLL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTHeroAccordingStateBLL.h; sourceTree = "<group>"; };
+		547132D11DBA7CA4003479E6 /* FBTHeroAccordingStateBLL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTHeroAccordingStateBLL.m; sourceTree = "<group>"; };
+		547132D21DBA7CA4003479E6 /* FBTHeroAccordingStateModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTHeroAccordingStateModel.h; sourceTree = "<group>"; };
+		547132D31DBA7CA4003479E6 /* FBTHeroAccordingStateModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTHeroAccordingStateModel.m; sourceTree = "<group>"; };
+		547132D41DBA7CA4003479E6 /* FBTHeroAccordingStateRequestsEnitity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTHeroAccordingStateRequestsEnitity.h; sourceTree = "<group>"; };
+		547132D51DBA7CA4003479E6 /* FBTHeroAccordingStateRequestsEnitity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTHeroAccordingStateRequestsEnitity.m; sourceTree = "<group>"; };
+		547132D61DBA7CA4003479E6 /* FBTHeroAccordingStateRespondEnitity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBTHeroAccordingStateRespondEnitity.h; sourceTree = "<group>"; };
+		547132D71DBA7CA4003479E6 /* FBTHeroAccordingStateRespondEnitity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBTHeroAccordingStateRespondEnitity.m; sourceTree = "<group>"; };
+		547132DF1DBA84F9003479E6 /* FBTNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBTNetworking.framework; path = ../../FBTProducts/FBTNetworking.framework; sourceTree = "<group>"; };
+		79231735773B105648B0AF86 /* Pods-FBTNetworkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBTNetworkingDemo.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-FBTNetworkingDemo/Pods-FBTNetworkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		547132531DBA728C003479E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547132E01DBA84F9003479E6 /* FBTNetworking.framework in Frameworks */,
+				29D54FE360BBF7366F2451CD /* libPods-FBTNetworkingDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5471326C1DBA728C003479E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547132771DBA728C003479E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2582BF1EF336BAE0D0A2A06E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				547132DF1DBA84F9003479E6 /* FBTNetworking.framework */,
+				3BB9A97B162415B201537D40 /* libPods-FBTNetworkingDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5471324D1DBA728C003479E6 = {
+			isa = PBXGroup;
+			children = (
+				547132581DBA728C003479E6 /* FBTNetworkingDemo */,
+				547132721DBA728C003479E6 /* FBTNetworkingDemoTests */,
+				5471327D1DBA728C003479E6 /* FBTNetworkingDemoUITests */,
+				547132571DBA728C003479E6 /* Products */,
+				B4043D0131D2BA47CC97B727 /* Pods */,
+				2582BF1EF336BAE0D0A2A06E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		547132571DBA728C003479E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				547132561DBA728C003479E6 /* FBTNetworkingDemo.app */,
+				5471326F1DBA728C003479E6 /* FBTNetworkingDemoTests.xctest */,
+				5471327A1DBA728C003479E6 /* FBTNetworkingDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		547132581DBA728C003479E6 /* FBTNetworkingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5471325C1DBA728C003479E6 /* AppDelegate.h */,
+				5471325D1DBA728C003479E6 /* AppDelegate.m */,
+				5471325F1DBA728C003479E6 /* ViewController.h */,
+				547132601DBA728C003479E6 /* ViewController.m */,
+				547132CD1DBA7CA4003479E6 /* FBTHeroNetSet.h */,
+				547132CE1DBA7CA4003479E6 /* FBTHeroNetSet.m */,
+				547132CF1DBA7CA4003479E6 /* Request */,
+				547132621DBA728C003479E6 /* Main.storyboard */,
+				547132651DBA728C003479E6 /* Assets.xcassets */,
+				547132671DBA728C003479E6 /* LaunchScreen.storyboard */,
+				5471326A1DBA728C003479E6 /* Info.plist */,
+				547132591DBA728C003479E6 /* Supporting Files */,
+			);
+			path = FBTNetworkingDemo;
+			sourceTree = "<group>";
+		};
+		547132591DBA728C003479E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5471325A1DBA728C003479E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		547132721DBA728C003479E6 /* FBTNetworkingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				547132731DBA728C003479E6 /* FBTNetworkingDemoTests.m */,
+				547132751DBA728C003479E6 /* Info.plist */,
+			);
+			path = FBTNetworkingDemoTests;
+			sourceTree = "<group>";
+		};
+		5471327D1DBA728C003479E6 /* FBTNetworkingDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5471327E1DBA728C003479E6 /* FBTNetworkingDemoUITests.m */,
+				547132801DBA728C003479E6 /* Info.plist */,
+			);
+			path = FBTNetworkingDemoUITests;
+			sourceTree = "<group>";
+		};
+		547132CF1DBA7CA4003479E6 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				547132D01DBA7CA4003479E6 /* FBTHeroAccordingStateBLL.h */,
+				547132D11DBA7CA4003479E6 /* FBTHeroAccordingStateBLL.m */,
+				547132D21DBA7CA4003479E6 /* FBTHeroAccordingStateModel.h */,
+				547132D31DBA7CA4003479E6 /* FBTHeroAccordingStateModel.m */,
+				547132D41DBA7CA4003479E6 /* FBTHeroAccordingStateRequestsEnitity.h */,
+				547132D51DBA7CA4003479E6 /* FBTHeroAccordingStateRequestsEnitity.m */,
+				547132D61DBA7CA4003479E6 /* FBTHeroAccordingStateRespondEnitity.h */,
+				547132D71DBA7CA4003479E6 /* FBTHeroAccordingStateRespondEnitity.m */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		B4043D0131D2BA47CC97B727 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79231735773B105648B0AF86 /* Pods-FBTNetworkingDemo.debug.xcconfig */,
+				49DBB4A1C0ECF3C736CD4AC6 /* Pods-FBTNetworkingDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		547132551DBA728C003479E6 /* FBTNetworkingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547132831DBA728C003479E6 /* Build configuration list for PBXNativeTarget "FBTNetworkingDemo" */;
+			buildPhases = (
+				D76C2CD91FEACDE422474BBF /* [CP] Check Pods Manifest.lock */,
+				547132521DBA728C003479E6 /* Sources */,
+				547132531DBA728C003479E6 /* Frameworks */,
+				547132541DBA728C003479E6 /* Resources */,
+				29AE60A2C6DD175D19BECED8 /* [CP] Embed Pods Frameworks */,
+				5A1B6A7E2750C931BF93BC13 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBTNetworkingDemo;
+			productName = FBTNetworkingDemo;
+			productReference = 547132561DBA728C003479E6 /* FBTNetworkingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5471326E1DBA728C003479E6 /* FBTNetworkingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547132861DBA728C003479E6 /* Build configuration list for PBXNativeTarget "FBTNetworkingDemoTests" */;
+			buildPhases = (
+				5471326B1DBA728C003479E6 /* Sources */,
+				5471326C1DBA728C003479E6 /* Frameworks */,
+				5471326D1DBA728C003479E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				547132711DBA728C003479E6 /* PBXTargetDependency */,
+			);
+			name = FBTNetworkingDemoTests;
+			productName = FBTNetworkingDemoTests;
+			productReference = 5471326F1DBA728C003479E6 /* FBTNetworkingDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		547132791DBA728C003479E6 /* FBTNetworkingDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 547132891DBA728C003479E6 /* Build configuration list for PBXNativeTarget "FBTNetworkingDemoUITests" */;
+			buildPhases = (
+				547132761DBA728C003479E6 /* Sources */,
+				547132771DBA728C003479E6 /* Frameworks */,
+				547132781DBA728C003479E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5471327C1DBA728C003479E6 /* PBXTargetDependency */,
+			);
+			name = FBTNetworkingDemoUITests;
+			productName = FBTNetworkingDemoUITests;
+			productReference = 5471327A1DBA728C003479E6 /* FBTNetworkingDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5471324E1DBA728C003479E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = fblife;
+				TargetAttributes = {
+					547132551DBA728C003479E6 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2C9F5LUDAU;
+						ProvisioningStyle = Automatic;
+					};
+					5471326E1DBA728C003479E6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 547132551DBA728C003479E6;
+					};
+					547132791DBA728C003479E6 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 547132551DBA728C003479E6;
+					};
+				};
+			};
+			buildConfigurationList = 547132511DBA728C003479E6 /* Build configuration list for PBXProject "FBTNetworkingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5471324D1DBA728C003479E6;
+			productRefGroup = 547132571DBA728C003479E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				547132551DBA728C003479E6 /* FBTNetworkingDemo */,
+				5471326E1DBA728C003479E6 /* FBTNetworkingDemoTests */,
+				547132791DBA728C003479E6 /* FBTNetworkingDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		547132541DBA728C003479E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547132691DBA728C003479E6 /* LaunchScreen.storyboard in Resources */,
+				547132661DBA728C003479E6 /* Assets.xcassets in Resources */,
+				547132641DBA728C003479E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5471326D1DBA728C003479E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547132781DBA728C003479E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29AE60A2C6DD175D19BECED8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-FBTNetworkingDemo/Pods-FBTNetworkingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A1B6A7E2750C931BF93BC13 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-FBTNetworkingDemo/Pods-FBTNetworkingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D76C2CD91FEACDE422474BBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		547132521DBA728C003479E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547132611DBA728C003479E6 /* ViewController.m in Sources */,
+				547132DB1DBA7CA4003479E6 /* FBTHeroAccordingStateRequestsEnitity.m in Sources */,
+				547132D91DBA7CA4003479E6 /* FBTHeroAccordingStateBLL.m in Sources */,
+				5471325E1DBA728C003479E6 /* AppDelegate.m in Sources */,
+				547132DA1DBA7CA4003479E6 /* FBTHeroAccordingStateModel.m in Sources */,
+				5471325B1DBA728C003479E6 /* main.m in Sources */,
+				547132DC1DBA7CA4003479E6 /* FBTHeroAccordingStateRespondEnitity.m in Sources */,
+				547132D81DBA7CA4003479E6 /* FBTHeroNetSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5471326B1DBA728C003479E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547132741DBA728C003479E6 /* FBTNetworkingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		547132761DBA728C003479E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5471327F1DBA728C003479E6 /* FBTNetworkingDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		547132711DBA728C003479E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547132551DBA728C003479E6 /* FBTNetworkingDemo */;
+			targetProxy = 547132701DBA728C003479E6 /* PBXContainerItemProxy */;
+		};
+		5471327C1DBA728C003479E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 547132551DBA728C003479E6 /* FBTNetworkingDemo */;
+			targetProxy = 5471327B1DBA728C003479E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		547132621DBA728C003479E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547132631DBA728C003479E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		547132671DBA728C003479E6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				547132681DBA728C003479E6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		547132811DBA728C003479E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		547132821DBA728C003479E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		547132841DBA728C003479E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79231735773B105648B0AF86 /* Pods-FBTNetworkingDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2C9F5LUDAU;
+				INFOPLIST_FILE = FBTNetworkingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"MJExtension\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"FBTNetProtocol\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fblife.FBTNetworkingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		547132851DBA728C003479E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49DBB4A1C0ECF3C736CD4AC6 /* Pods-FBTNetworkingDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2C9F5LUDAU;
+				INFOPLIST_FILE = FBTNetworkingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"MJExtension\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"FBTNetProtocol\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fblife.FBTNetworkingDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		547132871DBA728C003479E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FBTNetworkingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fblife.FBTNetworkingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBTNetworkingDemo.app/FBTNetworkingDemo";
+			};
+			name = Debug;
+		};
+		547132881DBA728C003479E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FBTNetworkingDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fblife.FBTNetworkingDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FBTNetworkingDemo.app/FBTNetworkingDemo";
+			};
+			name = Release;
+		};
+		5471328A1DBA728C003479E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FBTNetworkingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fblife.FBTNetworkingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FBTNetworkingDemo;
+			};
+			name = Debug;
+		};
+		5471328B1DBA728C003479E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FBTNetworkingDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fblife.FBTNetworkingDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FBTNetworkingDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		547132511DBA728C003479E6 /* Build configuration list for PBXProject "FBTNetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547132811DBA728C003479E6 /* Debug */,
+				547132821DBA728C003479E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547132831DBA728C003479E6 /* Build configuration list for PBXNativeTarget "FBTNetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547132841DBA728C003479E6 /* Debug */,
+				547132851DBA728C003479E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547132861DBA728C003479E6 /* Build configuration list for PBXNativeTarget "FBTNetworkingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				547132871DBA728C003479E6 /* Debug */,
+				547132881DBA728C003479E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		547132891DBA728C003479E6 /* Build configuration list for PBXNativeTarget "FBTNetworkingDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5471328A1DBA728C003479E6 /* Debug */,
+				5471328B1DBA728C003479E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5471324E1DBA728C003479E6 /* Project object */;
+}
