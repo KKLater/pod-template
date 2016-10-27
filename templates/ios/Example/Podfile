@@ -1,11 +1,28 @@
-use_frameworks!
+workspace 'FBTNetworking.xcworkspace'
+platform :ios, '8.0'
 
-target '${POD_NAME}_Example' do
-  pod '${POD_NAME}', :path => '../'
+############################################################
+#0、FBTNetworkingDemo
+project 'FBTNetworkingDemo/FBTNetworkingDemo.xcodeproj'
+#1、FBTNetworking
+project 'FBTNetworking/FBTNetworking.xcodeproj'
 
-  target '${POD_NAME}_Tests' do
-    inherit! :search_paths
+############################################################
+#0、FBTNetworkingDemo
+target 'FBTNetworkingDemo' do
+platform :ios, '8.0'
+project 'FBTNetworkingDemo/FBTNetworkingDemo.xcodeproj'
+pod 'AFNetworking', '~>3.0'
+pod 'MJExtension', '~>3.0'
+pod 'FBTNetProtocol', :git => 'https://git.coding.net/FBlife/FBTNetProtocol.git'
+end
 
-    ${INCLUDED_PODS}
-  end
+#1、FBTNetworking
+target 'FBTNetworking' do
+platform :ios, '8.0'
+project 'FBTNetworking/FBTNetworking.xcodeproj'
+pod ‘AFNetworking’, '~>3.0'
+pod 'MJExtension', '~>3.0'
+pod 'FBTNetProtocol', :git => 'https://git.coding.net/FBlife/FBTNetProtocol.git'
+
 end
