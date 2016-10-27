@@ -106,7 +106,7 @@ module Pod
         system "pod install"
       end
 
-      `git add Example/#{pod_name}.xcodeproj/project.pbxproj`
+      `git add Example/FBTProject/#{pod_name}.xcodeproj/project.pbxproj`
       `git commit -m "Initial commit"`
     end
 
